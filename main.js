@@ -11,5 +11,15 @@ title.style.backgroundColor = "#f0f0f0";
 title.style.padding = "10px";
 
 text.style.fontSize= "18px";
-text.style.fontStyle = "italic";
-text.style.color = "darkgreen"
+text.style.fontStyle = "italoc";
+text.style.color = "darkgreen";
+
+const btn = document.getEventListener("click", () => {
+
+});
+
+btn.addEventListener("click", () => {
+    alert("Кнопка нажата!");
+    btn.style.backgroundColor = "#4CAF50";
+    btn.style.color = "white";
+});
